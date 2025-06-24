@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Custom";
+    src: url("../assets/fonts/AnyConv.com__NotoSans-Italic-VariableFont_wdth,wght.woff2") format("woff2") , 
+    url("../assets/fonts/AnyConv.com__NotoSans-Italic-VariableFont_wdth,wght.woff") format("woff");
+    font-style: italic;
+    font-weight: 100;
+}

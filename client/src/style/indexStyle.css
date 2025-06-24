@@ -1,0 +1,262 @@
+@import url("font.css");
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Custom";
+    background-color: #222222;
+    overflow: hidden;
+}
+
+
+
+/* header */
+.header{
+    width: 50%;
+    height: 15vh;
+    margin-left: 25%;
+}
+.header__title{
+    display: flex;
+    justify-content: space-between;
+}
+.header__title-nickname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid 1px; */
+}
+.header__title-top{
+    color: #FFFBE0;
+}
+.header__title-bottom{
+    color: #b3e6d0;
+    margin-top: -1.5rem;
+    margin-left: 1.8rem;
+}
+.header__title-name{
+    display: flex;
+    align-items: center;
+}
+.header__name{
+    color: #FFFBE0;
+    font-size: 1.8rem;
+}
+.header__line{
+    width: 100%;
+    border: solid 0.1px rgb(121, 121, 121);
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* main sectionInfo */
+main{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+.main__sectionInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.main__info{
+    display: flex;
+    flex-direction: column;
+}
+.main__info-title{
+    color: #FFFBE0;
+    font-size: 1.5rem;
+}
+.main__info-aboutMe{
+    color: #FFFBE0;
+    font-size: 1.5rem;
+    margin-top: 0rem;
+}
+.golang{
+    color: #b3e6d0;
+    font-weight: bold;
+}
+.main__contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13vh;
+}
+.main__contacts-title{
+    font-size: 2rem;
+    color: #b3e6d0;
+}
+.main__contacts-ul{
+    display: flex;
+    flex-direction: column;
+    color: #FFFBE0;
+    margin-top: -1.2rem;
+}
+.main__contacts-a{
+    color: #b3e6d0;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    font-size: 1.15rem;
+}
+.main__contacts-li{
+    margin-top: 0.4rem;
+    font-size: 1.15rem;
+}
+.main__contacts-a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px; 
+    bottom: -1px; 
+    left: 0;
+    background: linear-gradient(to right, #8fd1b5, #f0e499);
+    transition: all 0.3s ease-in-out;
+}
+.main__contacts-a:hover::after{
+    width: 100%;
+}
+.main__contacts-a:active{
+    transform: scale(0.85);
+}
+
+
+
+/* sectionStack */
+.main__sectionStack{
+    display: flex;
+    flex-direction: column;
+}
+.main__stackTitle{
+    font-size: 2rem;
+    color: #b3e6d0;
+    font-weight: bold;
+}
+.main__img-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.main__img-cont2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+.main__imgPostgres{
+    user-select: none;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 7rem;
+}
+.main__imgDocker{
+    user-select: none;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 2rem;
+}
+.main__imgGraf{
+    user-select: none;
+    width: 10rem;
+    height: 10rem;
+}
+.main__imgGit{
+    user-select: none;
+    width: 9rem;
+    height: 9rem;
+}
+.main__imgGolang{
+    user-select: none;
+    width: 15rem;
+    height: 10rem;
+    margin-top: -7.5rem;
+}
+.main__imgRedis{
+    user-select: none;
+    width: 9rem;
+    height: 9rem;
+}
+.main__imgGRPC{
+    user-select: none;
+    width: 20rem;
+    height: 10rem;
+    margin-top: -7.5rem;
+}
+.main__line{
+    width: 100%;
+    border: solid 0.1px rgb(121, 121, 121);
+    opacity: 0.7;
+    margin-top: 3rem;
+}
+
+
+
+
+/* main sectionProject */
+.main__projects-title{
+    font-size: 2rem;
+    color: #b3e6d0;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+.main__projects-sqlCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 22, 41);
+    opacity: 04;
+    height: 3.5rem;
+    border-radius: 5px;
+}
+.main__projects-sqlTitle{
+    color: #fff9d1;
+    font-size: 1.5rem;
+}
+.main__projects-word{
+    color: #E62CFF;
+}
+.main__projects-FRCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.main__projects-FRTitle{
+    display: flex;
+}
+.main__projects-imgFR{
+    height: 6rem;
+    width: 6rem;
+    user-select: none;
+    margin-left: -0.5rem;
+}
+.main__projects-titleFR{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #8fd1b5;
+}
+.main__projects-aboutFR{
+    margin-top: 0px;
+    color: #fff9d1;
+    font-size: 1.5rem;
+}
+.main__projects-imgJWT{
+    height: 5rem;
+    width: 5rem;
+    user-select: none;
+}
+.main__projects-JWTCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.main__projects-titleJWT{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #8fd1b5;
+    margin-left: 0.8rem;
+}
+.main__projects-JWTTitle{
+    display: flex;
+}

@@ -4,7 +4,6 @@ body{
     margin: 0;
     font-family: "Custom";
     background-color: #222222;
-    overflow: hidden;
 }
 
 
@@ -259,4 +258,36 @@ main{
 }
 .main__projects-JWTTitle{
     display: flex;
+}
+.main__projects-aboutJWT{
+    margin-top: 0px;
+    color: #fff9d1;
+    font-size: 1.5rem;
+}
+.main__projects-AroundCont{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.main__projects-AroundTitle{
+    display: flex;
+}
+.main__projects-imgAround{
+    height: 5rem;
+    width: 5rem;
+    user-select: none;
+}
+.main__projects-imgCont{
+    background-color: #cfcec5;
+    border-radius: 5px;
+}
+.main__projects-titleAround{
+    font-size: 1.5rem;
+    color:#b3e6d0;
+    margin-left: 1rem;
+}
+.main__projects-aboutAround{
+    font-size: 1.5rem;
+    color:#fff9d1;
+    margin-top: 0.5rem;
 }

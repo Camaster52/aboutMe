@@ -8,6 +8,7 @@ import imgRedis from "../../assets/img/dfb02cfce09ce3ca88fea097659a83554dd7a850.
 import imgGolang from "../../assets/img/f5f6e3bab354d85246af21c455946cf5f38c271c.png"
 import imgFR from "../../assets/img/icons8-тест-60.png"
 import imgJWT from "../../assets/img/6a8b668a847f24865e187be777dde549797da5e1.png"
+import imgAround from "../../assets/img/77e611866aa2539dc004d38389b8b1642d1885ab.png"
 
 const Main = () => {
 
@@ -68,6 +69,17 @@ const Main = () => {
                         <img className="main__projects-imgJWT" src={imgJWT} alt="" />
                         <p className="main__projects-titleJWT">Go-jwt</p>
                     </div>
+                    <p className="main__projects-aboutJWT">I contributed to this library for working with JWT<br></br> technology in Go.</p>
+                </div>
+
+                <div className="main__projects-AroundCont">
+                    <div className="main__projects-AroundTitle">
+                        <div className="main__projects-imgCont">
+                            <img className="main__projects-imgAround" src={imgAround} alt="" />
+                        </div>
+                        <p className="main__projects-titleAround">Around</p>
+                    </div>
+                    <p className="main__projects-aboutAround">A long time ago, I enjoyed to make games and one of <br></br> them came to light.</p>
                 </div>
             </motion.section>
         </motion.main>

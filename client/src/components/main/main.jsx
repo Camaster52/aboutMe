@@ -209,7 +209,7 @@ const Main = () => {
                             <motion.span
                             key={i}
                             variants={{
-                                hidden: { opacity: 0.1 },
+                                hidden: { opacity: 0 },
                                 visible: { opacity: 1 }
                             }}
                             transition={{ 
@@ -218,7 +218,7 @@ const Main = () => {
                                 stiffness: 100
                             }}
                             className={isSelect || isFrom ? "main__projects-word" : ""}
-                            style={isSelect || isFrom ? { color: "#8A2BE2" } : {}} // Фиолетовый цвет
+                            style={isSelect || isFrom ? { color: "#8A2BE2" } : {}} 
                             >
                             {char}
                             </motion.span>

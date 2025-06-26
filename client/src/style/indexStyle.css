@@ -3,7 +3,8 @@ body{
     padding: 0;
     margin: 0;
     font-family: "Custom";
-    background-color: #222222;
+    background-color: #1b1b1b;
+
 }
 
 
@@ -12,7 +13,7 @@ body{
 .header{
     width: 50%;
     height: 15vh;
-    margin-left: 25%;
+    margin-left: 25vw;
 }
 .header__title{
     display: flex;
@@ -22,7 +23,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: solid 1px; */
 }
 .header__title-top{
     color: #FFFBE0;
@@ -55,7 +55,7 @@ body{
 main{
     width: 50%;
     height: 100%;
-    margin-left: 25%;
+    margin-left: 25vw;
 }
 .main__sectionInfo{
     display: flex;
@@ -290,4 +290,379 @@ main{
     font-size: 1.5rem;
     color:#fff9d1;
     margin-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* adaptive */
+@media (min-width: 1200px) and (max-width: 1440px) {
+    /* header */
+    .header__name{
+        font-size: 1.5rem;
+    }
+    .header__title-top{
+        font-size: 1.5rem;
+    }
+    .header__title-bottom{
+        font-size: 0.8rem;
+    }
+
+
+
+
+    /* main Welcome + contacts */
+    .main__info-title{
+        font-size: 1.2rem;
+        margin-top: -1rem;
+    }
+    .main__info-aboutMe{
+        color: #FFFBE0;
+        font-size: 1.2rem;
+        margin-top: 0rem;
+    }
+    .golang{
+        font-size: 1.3rem;
+    }
+    /* contacts */
+    .main__contacts{
+        margin-top: 13vh;
+    }
+    .main__contacts-title{
+        font-size: 1.4rem;
+        color: #b3e6d0;
+    }
+    .main__contacts-ul{
+        margin-top: -1rem;
+    }
+    .main__contacts-a{
+        font-size: 1rem;
+    }
+    .main__contacts-li{
+        margin-top: 0.3rem;
+        font-size: 1rem;
+    }
+
+    /* stack */
+    .main__stackTitle{
+        font-size: 1.5rem;
+    }
+    .main__imgPostgres{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 7rem;
+    }
+    .main__imgDocker{
+        width: 7rem;
+        height: 7rem;
+        margin-top: 2rem;
+    }
+    .main__imgGraf{
+        width: 7rem;
+        height: 7rem;
+    }
+    .main__imgGit{
+        width: 7rem;
+        height: 7rem;
+    }
+    .main__imgGolang{
+        width: 12rem;
+        height: 8rem;
+        margin-top: -7.5rem;
+    }
+    .main__imgRedis{
+        width: 7rem;
+        height: 7rem;
+    }
+    .main__imgGRPC{
+        width: 13rem;
+        height: 6rem;
+        margin-top: -7.5rem;
+    }
+    .main__projects-title{
+        font-size: 1.7rem;
+    }
+    .main__projects-sqlTitle{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /* header */
+    .header__name{
+        font-size: 1.3rem;
+    }
+    .header__title-top{
+        font-size: 1.3rem;
+    }
+    .header__title-bottom{
+        font-size: 0.7rem;
+    }
+
+
+
+
+    /* main Welcome + contacts */
+    .main__info-title{
+        font-size: 1rem;
+        margin-top: -1.7rem;
+    }
+    .main__info-aboutMe{
+        color: #FFFBE0;
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    .golang{
+        font-size: 1.1rem;
+    }
+    /* contacts */
+    .main__contacts{
+        margin-top: 13vh;
+    }
+    .main__contacts-title{
+        font-size: 1.2rem;
+    }
+    .main__contacts-ul{
+        margin-top: -1rem;
+    }
+    .main__contacts-a{
+        font-size: 0.7rem;
+    }
+    .main__contacts-li{
+        margin-top: 0.2rem;
+        font-size: 0.7rem;
+    }
+
+
+    /* stack */
+    .main__stackTitle{
+        font-size: 1.3rem;
+    }
+    .main__imgPostgres{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 4rem;
+    }
+    .main__imgDocker{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1.7rem;
+    }
+    .main__imgGraf{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGit{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGolang{
+        width: 10rem;
+        height: 7rem;
+        margin-top: -7.5rem;
+    }
+    .main__imgRedis{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGRPC{
+        width: 10rem;
+        height: 5rem;
+        margin-top: -7.5rem;
+    }
+    .main__projects-title{
+        font-size: 1.4rem;
+    }
+    .main__projects-sqlTitle{
+        font-size: 1rem;
+    }
+
+
+    /* projects */
+    .main__projects-imgFR{
+        height: 5rem;
+        width: 5rem;
+        margin-left: -0.6rem;
+    }
+    .main__projects-titleFR{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    .main__projects-aboutFR{
+        font-size: 1.2rem;
+    }
+
+    .main__projects-imgJWT{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-titleJWT{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    .main__projects-aboutJWT{
+        font-size: 1.2rem;
+    }
+
+    .main__projects-imgAround{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-imgCont{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-titleAround{
+        font-size: 1.2rem;
+    }
+    .main__projects-aboutAround{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+/* header */
+    .header__name{
+        font-size: 1.3rem;
+    }
+    .header__title-top{
+        font-size: 1.3rem;
+    }
+    .header__title-bottom{
+        font-size: 0.7rem;
+    }
+
+
+
+
+    /* main Welcome + contacts */
+    .main__info-title{
+        font-size: 1rem;
+        margin-top: -1.7rem;
+    }
+    .main__info-aboutMe{
+        color: #FFFBE0;
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    .golang{
+        font-size: 1.1rem;
+    }
+    /* contacts */
+    .main__contacts{
+        margin-top: 13vh;
+    }
+    .main__contacts-title{
+        font-size: 1.2rem;
+    }
+    .main__contacts-ul{
+        margin-top: -1rem;
+    }
+    .main__contacts-a{
+        font-size: 0.7rem;
+    }
+    .main__contacts-li{
+        margin-top: 0.2rem;
+        font-size: 0.7rem;
+    }
+
+
+    /* stack */
+    .main__stackTitle{
+        font-size: 1.3rem;
+    }
+    .main__imgPostgres{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 4rem;
+    }
+    .main__imgDocker{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1.7rem;
+    }
+    .main__imgGraf{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGit{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGolang{
+        width: 10rem;
+        height: 7rem;
+        margin-top: -7.5rem;
+    }
+    .main__imgRedis{
+        width: 5rem;
+        height: 5rem;
+    }
+    .main__imgGRPC{
+        width: 10rem;
+        height: 5rem;
+        margin-top: -7.5rem;
+    }
+    .main__projects-title{
+        font-size: 1.4rem;
+    }
+    .main__projects-sqlTitle{
+        font-size: 1rem;
+    }
+
+
+    /* projects */
+    .main__projects-imgFR{
+        height: 5rem;
+        width: 5rem;
+        margin-left: -0.6rem;
+    }
+    .main__projects-titleFR{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    .main__projects-aboutFR{
+        font-size: 1.2rem;
+    }
+
+    .main__projects-imgJWT{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-titleJWT{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+    .main__projects-aboutJWT{
+        font-size: 1.2rem;
+    }
+
+    .main__projects-imgAround{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-imgCont{
+        height: 4rem;
+        width: 4rem;
+    }
+    .main__projects-titleAround{
+        font-size: 1.2rem;
+    }
+    .main__projects-aboutAround{
+        font-size: 1.2rem;
+    }
 }

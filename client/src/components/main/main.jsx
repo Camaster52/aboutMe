@@ -159,7 +159,7 @@ const Main = () => {
             <motion.section viewport={{ once: true }} variants={SectionInfoAnimation} initial="hidden" whileInView="visible"  className="main__sectionInfo">
                 <motion.div viewport={{ once: true }} variants={SectionWelcomeAnimation} initial="hidden" whileInView="visible" className="main__info">
                     <p className="main__info-title">Welocme to my personal web<br></br> page! </p>
-                    <p className="main__info-aboutMe">I am a <span className="golang">Golang</span> developer.  You<br></br> can see my tech stack and<br></br> projects below</p>
+                    <p className="main__info-aboutMe">I am a <span className="golang">Golang</span> developer. You<br></br> can see my tech stack and<br></br> projects below</p>
                 </motion.div>
 
                 <motion.nav viewport={{ once: true }} variants={SectionContactsAnimation} initial="hidden" whileInView="visible" className="main__contacts">
@@ -195,10 +195,10 @@ const Main = () => {
             <motion.section className="main__sectionProject">
                 <motion.h1 viewport={{ once: true }} variants={SectionProjectTitleAnimation} initial="hidden" whileInView="visible" className="main__projects-title">Projects</motion.h1>
                 <motion.div 
-                    className="main__projects-sqlCont"
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
+                        className="main__projects-sqlCont"
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true, margin: "-50px" }}
                     >
                     <p className="main__projects-sqlTitle">
                         {"SELECT name, description FROM projects;".split("").map((char, i) => {
